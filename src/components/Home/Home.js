@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import me from '../../Assets/me.jpeg';
 
 function Home() {
   return (
@@ -13,15 +14,15 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hi there,{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> MARY MCKINNON</strong>
+                I'm
+                <strong className="main-name"> Mary McKinnon. Welcome to my portfolio!</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -31,7 +32,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                // src={homeLogo}
+                src={me}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
