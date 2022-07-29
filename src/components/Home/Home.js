@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import me from '../../Assets/me.jpeg';
+import me from '../../Assets/avatar.png';
 
 function Home() {
   return (
@@ -35,7 +35,7 @@ function Home() {
                 src={me}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "350px" }}
               />
             </Col>
           </Row>
